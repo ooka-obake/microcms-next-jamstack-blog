@@ -1,6 +1,6 @@
 import { client } from "../../libs/client";
 
-export default function BlogId({ blog }) {
+export default function BlogId({  blog }: { blog: any}) {
   return (
     <main>
       <h1>{blog.title}</h1>
